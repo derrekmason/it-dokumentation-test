@@ -54,7 +54,3 @@ Jede Dokumentation folgt möglichst dieser Gliederung:
 
 Die Regeln dazu stehen im [CONTRIBUTING.md](../CONTRIBUTING.md).
 
-> **Hinweis zu Konfliktmarkierungen:** Die Datei
-> [Merge-Konflikte](git/merge-conflicts.md) enthält bewusst ein erklärendes
-> Beispiel mit den Markierungen `<<<<<<<`, `=======` und `>>>>>>>`. Diese
-> Zeichen sind dort kein Fehler, sondern Beispielinhalt.
