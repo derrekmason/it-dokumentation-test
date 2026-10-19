@@ -26,8 +26,8 @@ docs/
 
 | Dokumentation | Inhalt |
 | --- | --- |
-| _wird ergänzt_ | Windows Server – siehe Pull Request zu den Betriebssystemen. |
-| _wird ergänzt_ | Debian Linux – siehe Pull Request zu den Betriebssystemen. |
+| [Windows Server – Administration](systems/windows-server.md) | Installation, Netzwerkanbindung, DNS und DHCP, Active Directory als eine von mehreren Rollen, Benutzer und Gruppen, Updates, Firewall, Ereignisanzeige, Backup. |
+| [Debian Linux – Administration](systems/debian.md) | Installation, APT-Paketverwaltung, Benutzer und Dateirechte, Netzwerkkonfiguration, systemd, `journalctl`, Firewall und Absicherung, Backup mit `rsync`. |
 
 ## Dienste
 
