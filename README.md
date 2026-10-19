@@ -39,7 +39,7 @@ it-dokumentation-test/
 
 ## Dokumentationen
 
-Der vollständige Index находится in [`docs/README.md`](docs/README.md).
+Der vollständige Index ist in [`docs/README.md`](docs/README.md).
 
 | Bereich | Dokumentation | Status |
 | --- | --- | --- |
