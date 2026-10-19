@@ -1,0 +1,8 @@
+# Whitespace-Pruefungen fuer einzelne Dateien anpassen
+#
+# docs/git/merge-conflicts.md enthaelt bewusst ein erklaerendes Beispiel mit
+# den Git-Konfliktmarkierungen <<<<<<<, ======= und >>>>>>>. Damit
+# `git diff --check` keine unbeabsichtigten Konfliktmarkierungen meldet,
+# wird die Pruefung fuer genau diese Datei abgeschaltet. Alle anderen
+# Dateien werden weiterhin vollstaendig geprueft.
+docs/git/merge-conflicts.md whitespace=-trailing-space,-space-before-tab,-conflict-marker-size

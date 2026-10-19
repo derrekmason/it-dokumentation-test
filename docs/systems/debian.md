@@ -441,3 +441,4 @@ Entpacken können sie erhalten bleiben.
 - [Windows Server – Administration](windows-server.md)
 - [Private IPv4-Adressbereiche](../networking/private-ipv4.md)
 - [VLSM – Variable Length Subnet Masking](../networking/vlsm.md)
+- [FTP, FTPS und SFTP](../services/ftp.md)

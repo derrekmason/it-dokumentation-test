@@ -47,8 +47,8 @@ Der vollständige Index находится in [`docs/README.md`](docs/README.md)
 | Netzwerktechnik | [VLSM – Variable Length Subnet Masking](docs/networking/vlsm.md) | verfügbar |
 | Betriebssysteme | [Windows Server – Administration](docs/systems/windows-server.md) | verfügbar |
 | Betriebssysteme | [Debian Linux – Administration](docs/systems/debian.md) | verfügbar |
-| Dienste | FTP, FTPS und SFTP | in Arbeit |
-| Git/GitHub | Merge-Konflikte | in Arbeit |
+| Dienste | [FTP, FTPS und SFTP](docs/services/ftp.md) | verfügbar |
+| Git/GitHub | [Merge-Konflikte](docs/git/merge-conflicts.md) | verfügbar |
 
 ## Arbeitsweise
 

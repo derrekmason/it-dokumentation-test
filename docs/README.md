@@ -33,13 +33,13 @@ docs/
 
 | Dokumentation | Inhalt |
 | --- | --- |
-| _wird ergänzt_ | FTP, FTPS und SFTP – siehe Pull Request zu Diensten und Git. |
+| [FTP, FTPS und SFTP](services/ftp.md) | Funktionsweise von FTP, Steuer- und Datenverbindung, aktiver und passiver Modus, Firewall-Anforderungen, Abgrenzung von FTP, FTPS und SFTP sowie sichere Alternativen. |
 
 ## Git / GitHub
 
 | Dokumentation | Inhalt |
 | --- | --- |
-| _wird ergänzt_ | Merge-Konflikte – siehe Pull Request zu Diensten und Git. |
+| [Merge-Konflikte](git/merge-conflicts.md) | Ursachen von Konflikten bei `merge`, `rebase`, `cherry-pick` und `am`; Zustand im Arbeitsbaum; Konfliktmarkierungen; sicherer Acht-Schritte-Ablauf; `git merge --abort` und `git rebase --abort`; Strategien zur Konfliktvermeidung. |
 
 ## Konventionen
 
@@ -53,3 +53,8 @@ Jede Dokumentation folgt möglichst dieser Gliederung:
 6. Weiterführende Quellen
 
 Die Regeln dazu stehen im [CONTRIBUTING.md](../CONTRIBUTING.md).
+
+> **Hinweis zu Konfliktmarkierungen:** Die Datei
+> [Merge-Konflikte](git/merge-conflicts.md) enthält bewusst ein erklärendes
+> Beispiel mit den Markierungen `<<<<<<<`, `=======` und `>>>>>>>`. Diese
+> Zeichen sind dort kein Fehler, sondern Beispielinhalt.
