@@ -35,14 +35,14 @@ it-dokumentation-test/
 
 Der vollständige Index находится in [`docs/README.md`](docs/README.md).
 
-| Bereich | Dokumentation |
-| --- | --- |
-| Netzwerktechnik | [Private IPv4-Adressbereiche](docs/networking/private-ipv4.md) |
-| Netzwerktechnik | [VLSM – Variable Length Subnet Masking](docs/networking/vlsm.md) |
-| Betriebssysteme | [Windows Server](docs/systems/windows-server.md) |
-| Betriebssysteme | [Debian Linux](docs/systems/debian.md) |
-| Dienste | [FTP, FTPS und SFTP](docs/services/ftp.md) |
-| Git/GitHub | [Merge-Konflikte](docs/git/merge-conflicts.md) |
+| Bereich | Dokumentation | Status |
+| --- | --- | --- |
+| Netzwerktechnik | [Private IPv4-Adressbereiche](docs/networking/private-ipv4.md) | verfügbar |
+| Netzwerktechnik | [VLSM – Variable Length Subnet Masking](docs/networking/vlsm.md) | verfügbar |
+| Betriebssysteme | Windows Server | in Arbeit |
+| Betriebssysteme | Debian Linux | in Arbeit |
+| Dienste | FTP, FTPS und SFTP | in Arbeit |
+| Git/GitHub | Merge-Konflikte | in Arbeit |
 
 ## Arbeitsweise
 
