@@ -231,11 +231,19 @@ Subnetz vollständig in `192.168.10.0/24`. ✔
 
 **Kontrolle mit Werkzeugen (Linux):**
 
+`ipcalc` rechnet Netz- und Broadcast-Adressen aus, ist aber **kein
+Standardwerkzeug** und muss je nach Distribution nachinstalliert werden
+(Debian-Paket `ipcalc`):
+
 ```bash
-# Prüfung der Netz-/Broadcast-Adressen gegen die Maske
-ipcalc -s 192.168.10.112/255.255.255.248     # Adresse: 192.168.10.112
-ipcalc -s 192.168.10.113/255.255.255.248     # Host:    192.168.10.113
+# Netzadresse, Host-Adresse und Broadcast aus der Maske berechnen
+ipcalc -s 192.168.10.112/255.255.255.248     # Netz: 192.168.10.112
+ipcalc -s 192.168.10.113/255.255.255.248     # Host: 192.168.10.113
 ```
+
+Ohne Zusatzpakete lässt sich dieselbe Kontrolle mit Bordmitteln durchführen –
+etwa mit `ip address` beziehungsweise einem kurzen Skript, das Netz- und
+Broadcast-Adresse aus Adresse und Maske berechnet.
 
 ---
 
@@ -293,6 +301,9 @@ Für normale Hostnetze bleiben diese Sonderfälle außen vor – dort gilt weite
   <https://www.rfc-editor.org/rfc/rfc3021>
 - RFC 1918 – Address Allocation for Private Internets
   <https://www.rfc-editor.org/rfc/rfc1918>
-- `ipcalc(1)` – <https://man7.org/linux/man-pages/man1/ipcalc.1.html>
+- `ipcalc` – Debian-Paketbeschreibung:
+  <https://packages.debian.org/stable/ipcalc>
+- `ipcalc(1)` – Handbuchseite:
+  <https://manpages.debian.org/stable/ipcalc/ipcalc.1.en.html>
 - Private IPv4-Adressbereiche (in diesem Repository)
   [docs/networking/private-ipv4.md](private-ipv4.md)
